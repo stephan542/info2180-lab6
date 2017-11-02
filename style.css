@@ -1,0 +1,27 @@
+   body{
+              background-color:white;
+              padding:20px 100px 20px 200px;
+              color:white;
+              font-family:"Open Sans", Helvetica, Arial, sans-serif;;
+          }
+          #wrapper{
+              background-color:lightgray;
+              width:1000px;
+              height:100%;
+              border-radius:5px;
+          }
+          #bar{
+              background-color:#1582c2;
+              height:22px;
+              width:1000px;
+          } #bar h6{float:right;margin:10px 10px 0px 0px;}
+          #banner{
+              font-family:"Brush Script MT",Arial;
+              background:url("http://www.planwallpaper.com/static/images/vladstudio-squares-Cool-Background.jpg");
+           }#banner {text-align:center;}#banner h1{font-size: 48px;}
+           .box{
+               border-radius:5px;
+               height:30px;
+               margin:10px;
+           }
+          
