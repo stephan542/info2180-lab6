@@ -12,11 +12,18 @@ $(document).ready(function(){
                    url: 'request.php',
                    cache:false,
                    success:function(d){
+                       if(d.length > 1){
                         $("#results").append(d);
                         $("#results").append("<hr/ width=800px>");
+                        displayedword.push(($('#search_box').val()).toLowerCase());
+                       }else{
+                           alert("Word not in dictionary")
+                       }
                    },
                })
-               displayedword.push(($('#search_box').val()).toLowerCase());
+              
                }
            })
+           
+           
        });
